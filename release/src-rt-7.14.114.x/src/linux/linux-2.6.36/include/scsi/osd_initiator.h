@@ -245,7 +245,7 @@ int osd_finalize_request(struct osd_request *or,
 int osd_execute_request(struct osd_request *or);
 
 /**
- * osd_execute_request_async - Execute the request without waitting.
+ * osd_execute_request_async - Execute the request without waiting.
  *
  * @or:                      - osd_request to Executed
  * @done: (Optional)         - Called at end of execution
